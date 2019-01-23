@@ -1,0 +1,13 @@
+@import '_variables';
+@import '_reset';
+
+body {
+	background-color: $background;
+	p {
+		color: $text__color;
+	}
+	a {
+		color: $text__color;
+		text-decoration: none;
+	}
+}
